@@ -1,0 +1,467 @@
+
+
+/*
+GOLD CSS
+Title: MiU 
+For: Gameworld Mobile App
+Date:10/2012
+Howard Livingston
+Instructor: Ms.Alarcon
+CSS Stylings for index.html
+*/
+
+
+
+
+
+
+
+/*//////////////////////////////// INDEX PAGE/////////////////////////////////////*/
+
+/*index page-background image*/
+.indexBackground{
+			background-image:url('http://insurancespringfieldmissouri.com/wp-content/uploads/2011/03/scratched-texture-background.jpg');
+}
+
+
+/*indexpage- Icon position*/
+.indexIcon{
+    		text-align:center;
+    		display: block;
+    		margin-left: auto;
+   			margin-right: auto;
+    		
+}
+
+
+/*index page-It's all about the games*/
+.topCtaTitle{		
+			
+			color:#FFFFFF;
+			font-style:regular;
+			font-family:("Chalkduster",serif, bold);
+}
+
+
+/*index page-icon container*/
+.ctabox{
+			
+			background-image:url('http://insurancespringfieldmissouri.com/wp-content/uploads/2011/03/scratched-texture-background.jpg');	
+			height:250px;
+			
+}
+
+/*index page-Log-in link*/
+#login{
+			padding-left:260px;
+			color:black;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:40px;
+			font-size:18pt;
+}
+
+
+/*index page-title container*/
+h1{
+			
+			width:device-width;
+			text-align:center;
+			padding:10px;
+			border:5px solid orange;
+			border-style: groove;
+			margin:0px;
+			padding-left: 45px;
+			color:white;
+			font-style:regular;
+			font-family:Charlemagne Std;
+			font-size:25px;
+			font-weight:bold;
+}
+
+
+/*listview main title*/
+h3{
+			
+			text-align:center;
+			color:white;
+			font-style:bold;
+			font-family:OCR A Std;
+			font-size:14pt;
+			text-shadow: 0 0 10px #FFFFFF;
+
+}
+
+h5{
+			
+			text-align:center;
+			color:#ffde40;
+			font-style:regular;
+			font-family:OCR A Std;
+			font-size:18pt;
+			text-shadow: 0 0 10px #FFFFFF;
+
+}
+
+h2{
+			padding-top:25px;
+			text-align:center;
+			color:white;
+			font-style:regular;
+			font-family:OCR A Std;
+			font-size:14pt;
+			text-shadow: 0 0 10px #FFFFFF;
+
+}
+
+
+/*Index Page-gameworld title next to logo*/
+.indexTitle{
+			padding-top:10px;
+			padding-left:110px;
+			color:white;
+			font-style:regular;
+			font-family:OCR A Std;
+			font-weight:5px;
+			font-size:24pt;
+			text-shadow: 0 0 10px #FFFFFF;
+}
+
+
+/* All page paragraph tag*/
+p{         
+
+			
+			padding-top:30px;
+			color:yellow;
+			text-align:center;
+			font-style:regular;
+			font-family:("Copperplate", Gothic, Bold);
+			font-weight:5px;
+			font-size:18pt;
+			text-shadow: 0 0 10px #FFFFFF;
+}
+
+#qoftheday{
+			text-align:center;
+			color:#FFFFFF;
+			font-style:regular;
+			font-family:("Chalkduster", serif, bold);
+
+
+}
+/*indexPage*/
+#getMeStarted{
+
+			padding-left:270px;
+			color:#ffffff;
+			font-style:regular;
+			font-family:("Copperplate", Gothic, Bold)d;
+			font-weight:5px;
+			font-size:12pt;
+			text-shadow: 0 0 10px #FFFFFF;
+}
+
+#additemBackground{
+			background-image:url('http://insurancespringfieldmissouri.com/wp-content/uploads/2011/03/scratched-texture-background.jpg');
+}
+
+/*index page*/
+
+#On-LineGames{
+			text-align:center;
+
+
+}
+
+/*button pictures*/
+.buttonPic{
+			padding-top:25px;
+			padding-left:15px;
+
+
+}
+
+
+/*////////////////////////////////END INDEX PAGE/////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////Sign-up Page/////////////////////////////////////////////////*/
+
+
+#signUpErrorsLink{
+			display:none;
+
+}
+
+label.error{
+
+			display:block;
+			margin:10px 0;
+			color:red;
+}
+
+
+#commentPhrase{
+			text-align:center;
+			color:#1a1eb2;
+			font-size: 20pt;
+
+
+}
+
+#groupsButtons{
+			text-align:center;
+			color:#1a1eb2;
+			font-size: 20pt;
+}
+
+#commentBox{
+			text-align:center;
+
+}
+
+.signUpText {
+
+			text-align:center;
+			color:#1a1eb2;
+			font-size: 14pt;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+}
+
+
+
+
+#signUpFormFields{
+			text-align:center
+
+}
+
+
+
+/*///////////////////////////End Sign-up/////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*///////////////////////////My Page/////////////////////////////////////////////////*/
+
+#myPageHeader{
+			
+			padding-top:50px;
+}
+
+.myPageFavorites{
+			text-align:center;
+			color:#920031;
+			font-style:regular;
+			font-family:("Copperplate", Gothic, Bold);
+			font-size:12pt;
+			text-shadow: 0 0 10px #FFFFFF;
+}
+
+.p10{
+			text-align:center;
+			font-size:14pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+}
+
+
+
+/*///////////////////////////End My Page/////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*///////////////////////////ConsoleGame/////////////////////////////////////////////////*/
+
+/*consoleGame page pic*/
+#consoleGames{
+			text-align:center;
+
+
+}
+/*///////////////////////////End ConsoleGame/////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*///////////////////////////Phone app Page/////////////////////////////////////////////////*/
+
+/*phone app page pic*/
+#phoneApps{
+			text-align:center;
+
+}
+/*///////////////////////////End Phone app/////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*///////////////////////////CardGame Page/////////////////////////////////////////////////*/
+
+/*cardGame page pic*/
+#cardGames{
+			text-align:center;
+
+
+}
+/*///////////////////////////End CardGame/////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*///////////////////////////ManualGame/////////////////////////////////////////////////*/
+
+/*ManualGame page pic*/
+#ManualGames{
+			text-align:center;
+
+
+}
+/*///////////////////////////End ManualGame/////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////JSON DATA//////////////////////////////////*/
+#items{
+			
+			color:white;
+			font-size: 24px;
+			text-shadow: 0 0 20px #FFFFFF;
+}
+
+
+#editContact{
+			color:#ffffff;
+}
+
+span{
+		color:white;
+
+}
+
+/*//////////////////////////////////END//////////////////////////////////*/
+
+
+
+
+/*///////////////////////////All Button Text Color/////////////////////////////////////////////////*/
+
+.ui-btn-text{
+
+			color:white;
+			
+}
+
+h4{
+			text-align:center;
+			font-size:16pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+			
+
+}
+
+#p3{
+			font-size:12pt;
+			color:#920031;
+			font-style:bold;
+			font-family:(Copperplate, Gothic, Bold);
+			font-weight:1px;
+}
+
+.p3{
+			text-align:center;
+			font-size:12pt;
+			color:#920031;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+}
+
+p4{
+			
+			font-size:14pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+}
+
+#thanks{
+			font-size:10pt;
+			color:#1240ab;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+
+
+
+}
+/*/////////////////////////// End All Button Text Color/////////////////////////////////////////////////*/
+
+
+
+
+/*/////////////////////////// 404 page/////////////////////////////////////////////////*/
+
+
+
+h7{
+			
+			
+			color:black;
+			font-size:24pt;
+
+}
+
+/*/////////////////////////// End 404 page/////////////////////////////////////////////////*/
+
+
+
