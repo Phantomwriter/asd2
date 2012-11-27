@@ -1,4 +1,3 @@
-
 <!doctype html>  
 <html lang="en">
 <head>
@@ -20,7 +19,7 @@ Marianne Sheldon
 10/2012
 -->
 
-<!-->
+<!--
 ////////////////////////////////Week One////////////////////////////////////////////
 
 
@@ -161,7 +160,7 @@ Marianne Sheldon
         	</div>
     </div>
 	<div data-role="content" class="indexBackground">
-	
+
 	<div>
 		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="e">Take Me Home</a>
 	</div>
@@ -621,7 +620,7 @@ Marianne Sheldon
 							Establish game libraries and add features to customize.
 						</h4>
 			</div>
-			
+
 			<div>
 				<h4>Github Links</h4>
 					<a data-ajax="false" data-role="button" id="gitLinksLive" data-theme="b" href="http://Phantomwriter.github.com/gameworld/BRONZE/index.html">View App Live</a>
@@ -630,7 +629,7 @@ Marianne Sheldon
 			</div>
 			<div>
 				<h4>Special Thanks and credits</h4>
-				
+
 					<h4>Credit to the following.</h4> 
 			</div><br>	
 			<div class="p3">
@@ -888,7 +887,7 @@ Marianne Sheldon
    <form action="#" method="post" id="signUpForm">
 			<div class="signUpText"> 
 				Enter your info to Sign-up					
-			
+
 				<ul 
 					id="errors">
 				</ul>
@@ -918,33 +917,33 @@ Marianne Sheldon
 		    		<legend></legend>
 		    		<div class="signUpText">
 		    		Favorites?
-		    		
+
 		    		</div>
 		    			<input type="checkbox" name="check" value="onlineGamesCbox" id="onlineGamesCbox" class="required" data-theme="b" checked="checked"/>
 		    			<label for="onlineGamesCbox">On-Line Games</label>
-		    		
+
 		    			<input type="checkbox" name="check" value= "consoleGamesCbox" id="consoleGamesCbox" data-theme="b"/>
 		    			<label for="consoleGamesCbox">Console Games</label>
-		    		
+
 		    			<input type="checkbox" name="check" value="phoneAppsCbox" id="phoneAppsCbox" data-theme="b" />
 		    			<label for="phoneAppsCbox">Phone Apps</label>
-		    		
+
 		    			<input type="checkbox" name="check" value="cardGamesCbox" id="cardGamesCbox" data-theme="b"/>
 		    			<label for="cardGamesCbox">Card Games</label>
-		    		
+
 		    			<input type="checkbox" name="check" value="manualGamesCbox" id="manualGamesCbox" data-theme="b"/>
 		    			<label for="manualGamesCbox">Manual Games</label>
-		    		
+
 		    	</fieldset>
 		    </div>
-		    		
+
 		    <div data-role="fieldcontain" class="signUpText">
 				<fieldset data-role="controlgroup">
 				<legend ></legend>
 				<div class="signUpText">
 				Device?
 				</div>
-						
+
 						<input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" data-theme="b"/>
      					<label for="radio-choice-1">Cell?</label>
 
@@ -952,7 +951,7 @@ Marianne Sheldon
      					<label for="radio-choice-2">Tablet?</label>
 				</fieldset>
 			</div>
-				
+
 				<div data-role="fieldcontain" style="text-align:center">
 					<div class="signUpText">
 					Are you a developer?
@@ -1103,16 +1102,16 @@ Marianne Sheldon
 					<input type="reset" value="Cancel" id="cancel" data-theme="a" data-inline="true"/>
 		  			<input type="submit" id="submit" value="Save Information" data-theme="b" data-inline="true"/>
 			</div>
-			
+
 			<a href="#signUpPageErrors" id="signUpErrorsLink" data-rel="dialog" data-transition="pop">Open errors</a>
-		
+
 		</form>
 		</div>
 		<div data-role="fieldcontain">
 				<a data-ajax="false" data-role="button" id="clear" data-theme="b" href="#">Clear Current Member info</a>
-				<a data-ajax="false" data-role="button" id="displayLink" data-theme="b" href="#">Show All Members</a>
+				<a data-ajax="false" data-role="button" id="showMem" data-theme="b" href="showMem">Show All Members</a>
 		</div>
-				
+
 	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
 			<ul>
@@ -1132,7 +1131,7 @@ Marianne Sheldon
 	<div data-role="header" data-position="fixed">
 		<h1>Missing fields</h1>
 	</div>
-		
+
 	<div data-role="content">
 		<ul>
 			<li>Fill the red text fields</li>
@@ -1155,12 +1154,12 @@ Marianne Sheldon
 		"ERROR 404"
 	</div>
 	<div data-role="content" id="content">
-			<h7>Sorry, this page is under construction.Come back later</h7>
+			Sorry, this page is under construction.Come back later
 	</div>
 	<div>
 			   				<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-theme="e">Take Me Home</a>
 
-	
+
 	</div>
 	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
@@ -1171,6 +1170,26 @@ Marianne Sheldon
 			</ul>
 		</div>
 	</div>
+</div>
+
+<div data-role="page" id="showMem">
+	<div id="header">
+		FYI
+	</div>
+	<div id="content">
+		
+		<ul id="eachMem"></ul>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a data-ajax="false" href="#about">About</a></li>
+				<li><a data-ajax="false" href="#home">Home</a></li>
+				<li><a data-ajax="false" href="#myPage">My Page</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 </div>
 
 

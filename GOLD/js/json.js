@@ -9,7 +9,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","Tablet"],
 		"friends":["I have:","2"],
-		"date":["Date:","June 2,2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","I wanna rock!"]
 	},	
 "User 2" :{
@@ -22,7 +24,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","5"],
-		"date":["Date:","November 10, 2011"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","I'm a pesky teenager"]
 	},
 "User 3" :{
@@ -35,7 +39,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","yay me!"]
 	},
 "User 4" :{
@@ -48,7 +54,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","These aren't the droids you're looking for!"]
 	},
 "User 5" :{
@@ -61,7 +69,9 @@ var json = {
 		"selectValue":["What do you want to do:","Play Opponent"],
 		"deviceValue":["What device are you using:","tablet"],
 		"friends":["I have:","0"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Will play for food!"]
 	},
 "User 6" :{
@@ -74,7 +84,9 @@ var json = {
 		"selectValue":["What do you want to do:","PlayOpponent"],
 		"deviceValue":["What device are you using:","tablet"],
 		"friends":["I have:","1"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","I'm my own best friend!"]
 	},
 "User 7" :{
@@ -87,7 +99,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","I need munchies bro!"]
 	},
 "User 8" :{
@@ -100,7 +114,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","10,000"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Send me a text!"]
 	},
 "User 9" :{
@@ -113,7 +129,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","pc"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Call me for a job!"]
 	},
 "User 10" :{
@@ -126,7 +144,9 @@ var json = {
 		"selectValue":["What do you want to do:","Computer Challenge"],
 		"deviceValue":["What device are you using:","pc"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","The tides of war are breaking the dam!!"]
 	},
 "User 11" :{
@@ -139,7 +159,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","pc"],
 		"friends":["I have:","1"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","You'll love my cookies, but hate my punishment!"]
 	},
 "User 12" :{
@@ -152,7 +174,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","tablet"],
 		"friends":["I have:","25"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Your car will never be the same"]
 	},
 "User 13" :{
@@ -165,7 +189,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","tablet"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Don't you wanna' come party with me?"]
 	},
 "User 14" :{
@@ -178,7 +204,9 @@ var json = {
 		"selectValue":["What do you want to do:","Multi-Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","if I only had a heart"]
 	},
 "User 15" :{
@@ -191,7 +219,9 @@ var json = {
 		"selectValue":["What do you want to do:","Multi-Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","They tore off my arms and threw them over there!!"]
 	},
 "User 16" :{
@@ -204,7 +234,9 @@ var json = {
 		"selectValue":["What do you want to do:","Multi-Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Whad' ya' have tp go and do that for?"]
 	},
 "User 17" :{
@@ -217,7 +249,9 @@ var json = {
 		"selectValue":["What do you want to do:","Multi-Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","There's no place like home!"]
 	},
 "User 18" :{
@@ -230,7 +264,9 @@ var json = {
 		"selectValue":["What do you want to do:","ComputerChallenge"],
 		"deviceValue":["What device are you using:","pc"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Nobody gets in to see the wizard, not no way, not no how!!"]
 	},
 "User 19" :{
@@ -243,7 +279,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","tablet"],
 		"friends":["I have:","10,000,000"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","Follow the yellow brick road"]
 	},
 "User 20" :{
@@ -256,7 +294,9 @@ var json = {
 		"selectValue":["What do you want to do:","Text"],
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
-		"date":["Date:","June 16, 2012"],
+		"day":["Day:","10"],
+		"month":["Month:","June"],
+		"year":["Year:","1970"],
 		"comments":["comments:","I'm melting!"]
 	}
 }
