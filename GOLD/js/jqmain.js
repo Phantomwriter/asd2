@@ -255,7 +255,7 @@ $('#weaponsPage').on('pageinit', function(){
  	dataType: "xml",
  	success: function(xml){
                        console.log(xml);
-                       $(xml).find("Allweapons").each(function(){
+                       $(xml).find("weapon").each(function(){
 						var name = $(this).find('name').text();
 						var origin = $(this).find('origin').text();
 						var type = $(this).find('type').text();
@@ -263,10 +263,11 @@ $('#weaponsPage').on('pageinit', function(){
 						var link = $(this).find('link').text();
 						var description = $(this).find('description').text();
 						console.log("got xml data!");
+						console.log(name);
 						   
 
                             $(''+
-								  '<li class="weapons">'+
+								  '<li class="xmlWeapon">'+
 										'<h2>name:'+ name +'</h2>'+
 										'<p>origin:'+ origin +'</p>'+
 										'<p>type:'+ type +'</p>'+
@@ -278,7 +279,7 @@ $('#weaponsPage').on('pageinit', function(){
                                  $("#xmlWeapon").listview('refresh');
                  	  });
 				 }
-		})
+		});
 		});
 
 
