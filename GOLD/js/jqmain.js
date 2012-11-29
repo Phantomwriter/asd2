@@ -12,10 +12,8 @@
 
 /*---------------preparing the dom----------------*/
 
-/*
 ///////////////////////////////////WEEK 1///////////////////////////////
-
-
+/*
 
 Refactored code into jquery
 
@@ -25,76 +23,36 @@ Save and delete data have functionality.
 
 Populating form data, populating JSON dummy data and edit/delete are non-functional
 
+*/
+/////////////////////////////////END WEEK 1//////////////////////////////////////
+
+///////////////////////////////////WEEK 2///////////////////////////////
+/*
+
+Added json, xml and csv data listviews and buttons
+
+*/
+///////////////////////////////////END WEEK 2///////////////////////////////
 
 
 
-*////////////////////////////////////////////////////////////////////////
+///////////////////Variables and Click Events for Sign-up Page////////////
 
-//Click Events for Sign-up Page
-		var saveData =$('submit');
-			saveData.on("click");
+//Save data
+var saveData =$('submit');
+	saveData.on("click");
 
-		var getData =$('showMem')
-			getData.on("click");
+//Retrieve data
+var getData =$('showMem')
+	getData.on("click");
 
-		var displayLink = $('displayLink');
-			displayLink.on("click", getData);
+//Display links
+var displayLink = $('displayLink');
+	displayLink.on("click", getData);
 
-		var clearLink =$('#clear');
-			clearLink.on("click", clearLocal);
-//page-ready for Home page
-$('#home').on('pageinit', function(){
-		console.log("Home page loaded!");
-});
-
-//page-ready for Sign-up page
-$('#signUpPage').on('pageinit', function(){
-		console.log("Sign up loaded!");
-	var signUpForm = $('#signUpForm'),
-		signUpErrorsLink = $('#signUpErrorsLink');
-		signUpForm.validate({
-			invalidHandler: function(form, validator){
-			signUpErrorsLink.click();
-			var html = '';
-			for(var key in validator.submitted){
-				var label= $('label [for^="'+ key +'"]').not('[generated]');
-				var legend = label.closest('fieldset').find('.ui-controlgroup-label');
-				var fieldName = legend.length ? legend.text() : label.text();
-				html += '<li>'+ fieldName +'</li>';
-				};
-			$("signUpPageErrors ul").html(html);
-			},
-			submitHandler: function(){
-	var data = signUpForm.serializeArray();
-			saveData(data);
-		} 
-	}	
-	);
-	
-	
-//Save Data function
-	var saveData= function(data){
-			var id=Math.floor(Math.random()*100000001);
-		console.log(data);
-
-		var item            ={};
-			item.fname		=['First Name:', $('#fname').value];
-			item.lname		=['Last Name:', $('#lname').value];
-			item.pword		=['Password:', $('#pword').value];
-			item.cpword		=['Confirm Password:', $('#cpword').value];
-			item.email		=['Email:', $('#email').value];
-			item.friends    =['I have:', $('#quantity').value];
-			item.day		=['Day:', $('#day').value];
-			item.month		=['Month:', $('#month').value];		
-			item.year		=['year:', $('#year').value];		
-			item.comments   =['comments', $('#comments').value];
-
-				localStorage.setItem(id, JSON.stringify(item));
-					alert("Information is saved!");	
-
-
-} 	
-	});
+//Clear links
+var clearLink =$('#clear');
+	clearLink.on("click", clearLocal);
 
 //Populate Data
 var populateData = function(){
@@ -209,6 +167,62 @@ $.ajaxSetup({
 });
 
 
+////////////////////////////////Page Readys///////////////////////////
+
+//page-ready for Home page
+$('#home').on('pageinit', function(){
+		console.log("Home page loaded!");
+});
+
+//page-ready for Sign-up page
+$('#signUpPage').on('pageinit', function(){
+		console.log("Sign up loaded!");
+	var signUpForm = $('#signUpForm'),
+		signUpErrorsLink = $('#signUpErrorsLink');
+		signUpForm.validate({
+			invalidHandler: function(form, validator){
+			signUpErrorsLink.click();
+			var html = '';
+			for(var key in validator.submitted){
+				var label= $('label [for^="'+ key +'"]').not('[generated]');
+				var legend = label.closest('fieldset').find('.ui-controlgroup-label');
+				var fieldName = legend.length ? legend.text() : label.text();
+				html += '<li>'+ fieldName +'</li>';
+				};
+			$("signUpPageErrors ul").html(html);
+			},
+			submitHandler: function(){
+	var data = signUpForm.serializeArray();
+			saveData(data);
+		} 
+	}	
+	);
+	
+	
+//Save Data function
+	var saveData= function(data){
+			var id=Math.floor(Math.random()*100000001);
+		console.log(data);
+
+		var item            ={};
+			item.fname		=['First Name:', $('#fname').value];
+			item.lname		=['Last Name:', $('#lname').value];
+			item.pword		=['Password:', $('#pword').value];
+			item.cpword		=['Confirm Password:', $('#cpword').value];
+			item.email		=['Email:', $('#email').value];
+			item.friends    =['I have:', $('#quantity').value];
+			item.day		=['Day:', $('#day').value];
+			item.month		=['Month:', $('#month').value];		
+			item.year		=['year:', $('#year').value];		
+			item.comments   =['comments', $('#comments').value];
+
+				localStorage.setItem(id, JSON.stringify(item));
+					alert("Information is saved!");	
+
+
+} 	
+	});
+
 //creating a list of json data 
 $('#weaponsPage').on('pageinit', function(){
     console.log("weapons page ready to create weapons list!");
@@ -244,8 +258,7 @@ $('#weaponsPage').on('pageinit', function(){
 
 });
 
-
-//xml data
+//creating a list of xml data
  $('#xmlPage').on('pageinit', function(){
  	console.log("xml Page loaded!");
  	
@@ -262,10 +275,8 @@ $('#weaponsPage').on('pageinit', function(){
 						var maker = $(this).find('maker').text();
 						var link = $(this).find('link').text();
 						var description = $(this).find('description').text();
-						console.log("got xml data!");
-						console.log(name);
-						   
-
+							console.log("got xml data!");
+						
                             $(''+
 								  '<li class="xmlWeapon">'+
 										'<h2>name:'+ name +'</h2>'+
@@ -281,10 +292,6 @@ $('#weaponsPage').on('pageinit', function(){
 				 }
 		});
 		});
-
-
-
-
 
 //page-ready for OnLine games Page
 $('#onlineGames').on('pageinit', function(){
@@ -340,7 +347,6 @@ $('#signUpPageErrors').on('pageinit', function(){
 $('#errorPage').on('pageinit', function(){
 	console.log("404 Page loaded!");
 });
-
 
 
 

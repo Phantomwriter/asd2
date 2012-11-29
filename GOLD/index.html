@@ -627,7 +627,7 @@ Marianne Sheldon
 					<a data-ajax="false" data-role="button" id="gitLinksMaster" data-theme="b" href="https://github.com/Phantomwriter/gameworld">View Gameworld Code</a>
 					<a data-ajax="false" data-role="button" id="jsonWeapons" data-theme="b" href="#weaponsPage">json-Top 5 video game weapons</a>
 					<a data-ajax="false" data-role="button" id="xmlCharacters" data-theme="b" href="#xmlPage">xml-Top 5 video game weapons</a>
-					<a data-ajax="false" data-role="button" id="yammlRecords" data-theme="b" href="#yammlPage">yamml-Top 5 video game weapons</a>
+					<a data-ajax="false" data-role="button" id="csvRecords" data-theme="b" href="#csvPage">csv-Top 5 video game weapons</a>
 
 
 			</div>
@@ -1127,8 +1127,10 @@ Marianne Sheldon
 	</div>
 </div>
 
-<!--Sign-up form validator page-->
 
+
+
+<!--12) Sign-up form validator page-->
 
 <div data-role="dialog" id="signUpPageErrors">
 
@@ -1152,7 +1154,7 @@ Marianne Sheldon
 		</div>
 	</div>
 
-<!--404 page-->
+<!--13) 404 page-->
 <div data-role="page" id="errorPage" data-add-back-btn="true">
 	<div data-role="header">
 		"ERROR 404"
@@ -1176,7 +1178,7 @@ Marianne Sheldon
 	</div>
 </div>
 
-<!--json Weapons Page-->
+<!--14) json Weapons Page-->
 <div data-role="page" id="weaponsPage">
 	<div data-role="header">
 		JSON Data
@@ -1202,14 +1204,14 @@ Marianne Sheldon
 </div>
 
 
-<!--xml weapons page-->
+<!--15) xml weapons page-->
 <div data-role="page" id="xmlPage">
 	<div data-role="header">
 		xml Data
 	</div>
 	<div data-role="content">
 			
-				<ul data-role="listview" class="xmlWeapon">
+				<ul data-role="listview" id="xmlWeapon">
 					<li></li>
 				</ul>
 		
@@ -1229,10 +1231,10 @@ Marianne Sheldon
 
 
 
-<!--yamml weapons page-->
-<div data-role="page" id="yammlPage">
+<!--15) csv weapons page-->
+<div data-role="page" id="csvPage">
 	<div data-role="header">
-		xml Data
+		csv Data
 	</div>
 	<div data-role="content">
 			<div data-role="listview" id="yammlWeapons">
