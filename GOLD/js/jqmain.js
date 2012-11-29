@@ -30,7 +30,18 @@ Populating form data, populating JSON dummy data and edit/delete are non-functio
 
 *////////////////////////////////////////////////////////////////////////
 
+//Click Events for Sign-up Page
+		var saveData =$('submit');
+			saveData.on("click");
 
+		var getData =$('showMem')
+			getData.on("click");
+
+		var displayLink = $('displayLink');
+			displayLink.on("click", getData);
+
+		var clearLink =$('#clear');
+			clearLink.on("click", clearLocal);
 //page-ready for Home page
 $('#home').on('pageinit', function(){
 		console.log("Home page loaded!");
@@ -84,20 +95,6 @@ $('#signUpPage').on('pageinit', function(){
 
 } 	
 	});
-
-//Click Events for Sign-up Page
-		var saveData =$('submit');
-			saveData.on("click");
-
-		var getData =$('showMem')
-			getData.on("click");
-
-		var displayLink = $('displayLink');
-			displayLink.on("click", getData);
-
-		var clearLink =$('#clear');
-			clearLink.on("click", clearLocal);
-
 
 //Populate Data
 var populateData = function(){
@@ -201,6 +198,92 @@ var deviceValues = function() {
 			return radios;
 }
 
+//ajax error callback
+$.ajaxSetup({
+	timeout: 10000,
+	error: function(err) {
+		console.log("error", err)
+	
+	}
+
+});
+
+
+//creating a list of json data 
+$('#weaponsPage').on('pageinit', function(){
+    console.log("weapons page ready to create weapons list!");
+    $('#weaponsList').empty();
+        console.log("weapons list cleared!");
+    //$('<li>').html('json').appendTo('#weaponsList');
+    $.ajax({
+            url:'xhr/weapons.json',
+            type:'GET',
+            dataType:'json',
+            success: function(response){
+            console.log(response);
+            for(var i=0, j=response.weapons.length; i<j; i++){
+                var weap = response.weapons[i];
+                $(''+
+                    '<div class="weapons">'+
+                        '<h2>'+ weap.name +'</h2>'+
+                            '<p>' + weap.origin +'</p>'+
+                            '<p>' + weap.type +'</p>'+
+                            '<p>' + weap.maker +'</p>'+
+                            '<p>' + weap.link +'</p>'+
+                            '<p>' + weap.description +'</p>'+
+                    '</div>'
+                ).appendTo('#weaponsList');
+                $("#weaponsPage").listview('refresh');
+                
+            };
+            
+        }
+    
+    });
+
+});
+
+
+
+//xml data
+ $('#xmlPage').on('pageinit', function(){
+ 	console.log("xml Page loaded!");
+ 	
+ $.ajax({
+ 	type: "GET",
+ 	url: "xhr/weapons.xml",
+ 	dataType: "xml",
+ 	success: function(xml){
+                       console.log(xml);
+                       $(xml).find("Allweapons").each(function(){
+						var name = $(this).find('name').text();
+						var origin = $(this).find('origin').text();
+						var type = $(this).find('type').text();
+						var maker = $(this).find('maker').text();
+						var link = $(this).find('link').text();
+						var description = $(this).find('description').text();
+						console.log("got xml data!");
+						   
+
+                            $(''+
+								  '<div id="weapons">'+
+										'<h2>name:'+ name +'</h2>'+
+										'<p>origin:'+ origin +'</p>'+
+										'<p>type:'+ type +'</p>'+
+										'<p>maker:'+ maker +'</p>'+
+										'<p>link:'+ link +'</p>'+
+										'<p>description:'+ description +'</p>'+
+								   '</div>'
+                                 ).appendTo('#weaponsList');
+                 	  });
+				 }
+		})
+		});
+
+
+
+
+
 //page-ready for OnLine games Page
 $('#onlineGames').on('pageinit', function(){
 	console.log("onlineGames page loaded!");
@@ -255,5 +338,27 @@ $('#signUpPageErrors').on('pageinit', function(){
 $('#errorPage').on('pageinit', function(){
 	console.log("404 Page loaded!");
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
