@@ -625,9 +625,9 @@ Marianne Sheldon
 				<h4>Github Links</h4>
 					<a data-ajax="false" data-role="button" id="gitLinksLive" data-theme="b" href="http://Phantomwriter.github.com/gameworld/BRONZE/index.html">View App Live</a>
 					<a data-ajax="false" data-role="button" id="gitLinksMaster" data-theme="b" href="https://github.com/Phantomwriter/gameworld">View Gameworld Code</a>
-					<a data-ajax="false" data-role="button" id="jsonWeapons" data-theme="b" href="#weaponsPage">json-Top 5 video game weapons</a>
-					<a data-ajax="false" data-role="button" id="xmlCharacters" data-theme="b" href="#xmlPage">xml-Top 5 video game weapons</a>
-					<a data-ajax="false" data-role="button" id="csvRecords" data-theme="b" href="#csvPage">csv-Top 5 video game weapons</a>
+					<a data-ajax="false" data-role="button" id="jsonWeapons" data-theme="b" href="#weaponsPage">JSON-Top 5 video game weapons</a>
+					<a data-ajax="false" data-role="button" id="xmlWeapons" data-theme="b" href="#xmlPage">XML-Top 5 video game weapons</a>
+					<a data-ajax="false" data-role="button" id="csvWeapons" data-theme="b" href="#csvPage">CSV-Top 5 video game weapons</a>
 
 
 			</div>
@@ -1184,7 +1184,7 @@ Marianne Sheldon
 		JSON Data
 	</div>
 	<div data-role="content">
-			<div data-role="listview" id="weaponsList">
+			<div data-role="listview" id="weaponsList" data-theme="b">
 				<ul class="weapons">
 					<li></li>
 				</ul>
@@ -1210,12 +1210,9 @@ Marianne Sheldon
 		xml Data
 	</div>
 	<div data-role="content">
-			
 				<ul data-role="listview" id="xmlWeapon">
 					<li></li>
 				</ul>
-		
-
 	</div>
 	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
@@ -1231,21 +1228,15 @@ Marianne Sheldon
 
 
 
-<!--15) csv weapons page-->
+<!--16) csv weapons page-->
 <div data-role="page" id="csvPage">
 	<div data-role="header">
 		csv Data
 	</div>
 	<div data-role="content">
-			<div data-role="listview" id="yammlWeapons">
-				<div class="yammlWeapon">
-					<h2></h2>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
-				</div>
+			<ul data-role="listview" id="csvWeapon" data-theme="b">
+				<li></li>
+			</ul>
 		
 		</div>
 	</div>
