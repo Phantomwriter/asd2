@@ -223,17 +223,18 @@ $('#weaponsPage').on('pageinit', function(){
             console.log(response);
             for(var i=0, j=response.weapons.length; i<j; i++){
                 var weap = response.weapons[i];
+                console.log(weap.name);
                 $(''+
-                    '<div class="weapons">'+
+                    '<li class="weapons">'+
                         '<h2>'+ weap.name +'</h2>'+
                             '<p>' + weap.origin +'</p>'+
                             '<p>' + weap.type +'</p>'+
                             '<p>' + weap.maker +'</p>'+
                             '<p>' + weap.link +'</p>'+
                             '<p>' + weap.description +'</p>'+
-                    '</div>'
+                    '</li>'
                 ).appendTo('#weaponsList');
-                $("#weaponsPage").listview('refresh');
+                $("#weaponsList").listview('refresh');
                 
             };
             
@@ -242,7 +243,6 @@ $('#weaponsPage').on('pageinit', function(){
     });
 
 });
-
 
 
 //xml data
@@ -266,22 +266,45 @@ $('#weaponsPage').on('pageinit', function(){
 						   
 
                             $(''+
-								  '<div id="weapons">'+
+								  '<li class="weapons">'+
 										'<h2>name:'+ name +'</h2>'+
 										'<p>origin:'+ origin +'</p>'+
 										'<p>type:'+ type +'</p>'+
 										'<p>maker:'+ maker +'</p>'+
 										'<p>link:'+ link +'</p>'+
 										'<p>description:'+ description +'</p>'+
-								   '</div>'
-                                 ).appendTo('#weaponsList');
+								   '</li>'
+                                 ).appendTo('#xmlWeapon');
+                                 $("#xmlWeapon").listview('refresh');
                  	  });
 				 }
 		})
 		});
 
 
-
+<div data-role="page" id="xmlPage">
+	<div data-role="header">
+		xml Data
+	</div>
+	<div data-role="content">
+			<div data-role="listview" id="xmlWeapons">
+				<ul class="xmlWeapon">
+					<li></li>
+				</ul>
+		
+		</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a data-ajax="false" href="#about">About</a></li>
+				<li><a data-ajax="false" href="#home">Home</a></li>
+				<li><a data-ajax="false" href="#myPage">My Page</a></li>
+			</ul>
+		</div>
+	</div>
+	
+</div>
 
 
 //page-ready for OnLine games Page

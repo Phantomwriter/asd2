@@ -1,7 +1,7 @@
 
-{"weapons": {
+{"weapons": [
 	
-		"weapon1":{
+		{
 			"name":"Smartbomb",
 			"origin":"Defender",
 			"type":"Arcade game",
@@ -11,7 +11,7 @@
 		
 	},
 	
-		"weapon2" :{
+		{
 		
 			"name":"Blades of Chaos",
 			"origin":"God of War",
@@ -24,7 +24,7 @@
 
 
 
-		"weapon3" :{
+		{
 			"name":"Gravity Gun",
 			"origin":"Half-Life 2",
 			"type":"Console game",
@@ -34,7 +34,7 @@
 	},
 
 
-		"weapon4"  :{	
+		{	
 			"name":"Lancer(chainsaw)",
 			"origin":"Gears of War",
 			"type":"Console game",
@@ -43,7 +43,7 @@
 			"description":"A chainsaw? AWESOME!"
 	},
 
-		"weapon5": {
+		 {
 			"name":"Exodia",
 			"origin":"Yu-Gi-Oh",
 			"type":"Card game",
@@ -52,4 +52,5 @@
 			"description":"An automatic victory if a player has all five pieces!"
 	}
   
-}}
+]
+}

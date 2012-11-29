@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Allweapons>
-   <weapons>
-    <weapon1 id="Smartbomb">
+   
+    <weapon id="Smartbomb">
         <name>Smartbomb</name>
         <origin>Defender</origin>
         <type>Arcade Game</type>
         <maker>atari</maker>
         <link>"http://www.youtube.com/watch?v=3pgh8pf5xzA"</link>
         <description>When certain death is near, smart bomb destroys everything on the screen in a blast of bright lights and crazy sythesized sounds. Check out this player using the smart bomb...you'll know when you see it.</description>
-    </weapon1>
-    <weapon2 id="Blades of Chaos">
+    </weapon>
+    <weapon id="Blades of Chaos">
         <name>Blades of Chaos</name>
         <origin>God of War</origin>
         <type>Console Game</type>
         <maker>Sony Computer Entertainment</maker>
         <link>http://godofwar.playstation.com/verify_age/?next=/"</link>
         <description>Blades of Chaos has infinite use and can fight off the toughest foes in a clip</description>
-    </weapon2>
-    <weapon3 id="Gravity Gun">
+    </weapon>
+    <weapon id="Gravity Gun">
         <name>Gravity Gun</name>
         <origin>Half-Life 2</origin>
         <type>Console Game</type>
         <maker>Valve Corporation</maker>
         <link>http://www.valvesoftware.com/games/hl2.html</link>
         <description>When certain death is near, smart bomb destroys everything on the screen in a blast of bright lights and crazy sythesized sounds. Check out this player using the smart bomb...you'll know when you see it.</description>
-    </weapon3>
-    <weapon4 id="Lancer(chainsaw)">
+    </weapon>
+    <weapon id="Lancer(chainsaw)">
         <name>Lancer(chainsaw)</name>
         <origin>Gears of War</origin>
         <type>Console Game</type>
         <maker>Epic Games</maker>
         <link>http://gearsofwar.xbox.com/en-US/AgeGate?source=%252f</link>
         <description>A chainsaw? AWESOME!</description>
-    </weapon4>
-    <weapon5 id="Exodia">
+    </weapon>
+    <weapon id="Exodia">
         <name>Exodia</name>
         <origin>Yu-Gi-Oh</origin>
         <type>Card Game</type>
         <maker>Konami</maker>
         <link>http://yugioh.wikia.com/wiki/Forbidden_One</link>
         <description>An automatic victory if a player has all five pieces!</description>
-    </weapon5>
-  </weapons>
+    </weapon>
+  
 </Allweapons>
 
 		
