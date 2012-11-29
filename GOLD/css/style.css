@@ -6,7 +6,7 @@ Title: ASD
 For: Gameworld Mobile App
 Date:11/2012
 Howard Livingston
-Instructor: marianne Sheldon
+Instructor: Marianne Sheldon
 CSS Stylings for index.html
 */
 
@@ -244,15 +244,10 @@ label.error{
 
 
 #signUpFormFields{
-			text-align:center;
+			text-align:center
 
 }
 
-#submitCancelButtons{
-			text-align:center;
-
-
-}
 
 
 /*///////////////////////////End Sign-up/////////////////////////////////////////////////*/
@@ -452,6 +447,21 @@ p4{
 /*/////////////////////////// End All Button Text Color/////////////////////////////////////////////////*/
 
 
+
+
+/*/////////////////////////// 404 page/////////////////////////////////////////////////*/
+
+
+
+h7{
+			
+			
+			color:black;
+			font-size:24pt;
+
+}
+
+/*/////////////////////////// End 404 page/////////////////////////////////////////////////*/
 
 
 
