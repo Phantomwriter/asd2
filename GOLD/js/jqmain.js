@@ -282,29 +282,7 @@ $('#weaponsPage').on('pageinit', function(){
 		});
 
 
-<div data-role="page" id="xmlPage">
-	<div data-role="header">
-		xml Data
-	</div>
-	<div data-role="content">
-			<div data-role="listview" id="xmlWeapons">
-				<ul class="xmlWeapon">
-					<li></li>
-				</ul>
-		
-		</div>
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<div data-role="navbar">
-			<ul>
-				<li><a data-ajax="false" href="#about">About</a></li>
-				<li><a data-ajax="false" href="#home">Home</a></li>
-				<li><a data-ajax="false" href="#myPage">My Page</a></li>
-			</ul>
-		</div>
-	</div>
-	
-</div>
+
 
 
 //page-ready for OnLine games Page
