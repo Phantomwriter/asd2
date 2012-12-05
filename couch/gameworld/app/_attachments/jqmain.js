@@ -305,7 +305,7 @@ $('#csvPage').on('pageinit', function(){
 
 ///////////////////////////////////////Week 3 files////////////////////////////////////////////
 
-//Couch JSON data page
+//Couch JSON data page-to couch
 $('#couch').on('pageinit', function(){
     console.log("couch data page ready to create favCards list!");
     $('couchFavCardsList').empty();
@@ -313,7 +313,7 @@ $('#couch').on('pageinit', function(){
 	$.ajax({
 		"url": "_view/favCards",
 		"dataType": "json",
-		"success": function(data){
+		"success": function(data) {
 			$.each(data.rows, function(index, favCards){
 					var name = favCards.value.name;
 					var type = favCards.value.type;
@@ -328,12 +328,13 @@ $('#couch').on('pageinit', function(){
 					
 			});
 			
+			$('#couchFavCardsList').listview('refresh');
 		}
-		$('#couchFavCardsList').listview('refresh');
 		
 	});
 	
 });
+
 
 
 

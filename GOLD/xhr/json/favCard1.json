@@ -1,0 +1,8 @@
+{
+   "_id": "favCard1",
+   "_rev": "5-09f39d1196ed117843f08e3ef8e36c0e",
+   "Name": "Pot of Duality",
+   "Type": "Normal",
+   "Attribute": "Spell card",
+   "Text": "You can only activate one pot of duality per turn. You cannot special summon a monster the turn you activate this card. Draw three cards from your deck, select one of those cards and add it to your hand. Place the other two cards back in your deck and shuffle the deck."
+}

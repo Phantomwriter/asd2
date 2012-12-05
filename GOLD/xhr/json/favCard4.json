@@ -1,0 +1,8 @@
+{
+   "_id": "favCard4",
+   "_rev": "2-48f0ad05b6a7529dfbf19af8d881bd78",
+   "Name": "Allure of Darkness",
+   "Type": "Spell Card",
+   "Attribute": "Normal",
+   "Text": "Draw two cards, then remove from play one dark monster from your hand. If you don't have any dark monsters in your hand to remove, send all cards in your hand to the graveyard."
+}
