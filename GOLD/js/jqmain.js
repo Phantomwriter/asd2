@@ -31,10 +31,7 @@ Save and delete data have functionality.
 Populating form data, populating JSON dummy data and edit/delete are non-functional
 
 */
-/////////////////////////////////END WEEK 1//////////////////////////////////////
-
-
-
+///////////////////////////////////////////////////////////////////////
 
 
 
@@ -44,7 +41,21 @@ Populating form data, populating JSON dummy data and edit/delete are non-functio
 Added json, xml and csv data, all three are listed below in "Week 2 files" section
 
 */
-///////////////////////////////////END WEEK 2///////////////////////////////
+//////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////WEEK 3////////////////////////////////////////////
+/*
+
+Removed buttons for csv, xml and json from last week, but left the code intact.
+Added page init and ajax call for the new json data from couch
+New function is below in week 3 files section
+
+*/
+///////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 
@@ -308,7 +319,7 @@ $('#csvPage').on('pageinit', function(){
 //Couch JSON data page
 $('#couch').on('pageinit', function(){
     console.log("couch data page ready to create favCards list!");
-    $('couchFavCardsList').empty();
+    $('#couchFavCardsList').empty();
         console.log("Fav Cards list cleared!");
     $.ajax({
         "url": "_view/favCards",
@@ -322,7 +333,7 @@ $('#couch').on('pageinit', function(){
                         $('#couchFavCardsList').append(
                             $('<li>').append(
                                 $('<a>').attr("href", "#")
-                                .text(favCards)
+                                .text(name)
                         )
                     );
 
@@ -334,14 +345,6 @@ $('#couch').on('pageinit', function(){
     });
 
 });
-
-
-
-
-
-
-
-
 
 ///////////////////////////////////////End Week 3 files////////////////////////////////////////////
 
