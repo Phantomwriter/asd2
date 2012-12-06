@@ -1,0 +1,10 @@
+{
+  "env": {
+    "local": {
+      "db": "http://127.0.0.1:5984/gameworld"
+    },
+    "cloudant": {
+      "db": "http://ndledstristreptheredgmer:vFEn2fhuVsbH0VMvlm0sDTuU@howie.cloudant.com/gameworld"
+  }
+}
+}

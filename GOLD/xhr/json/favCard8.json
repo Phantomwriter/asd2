@@ -1,0 +1,8 @@
+{
+   "_id": "favCard8",
+   "_rev": "1-eef0decbe07f51a2a8bae2797133897a",
+   "Name": "Sangan",
+   "Type": "Monster/Fiend/Effect",
+   "Attribute": "Dark/Lvl3",
+   "Text": "When this card is sent from the field to the graveyard, add 1 monster with 1500 or less attack from your deck to your hand."
+}

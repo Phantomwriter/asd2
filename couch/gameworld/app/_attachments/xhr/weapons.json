@@ -1,0 +1,56 @@
+
+{"weapons": [
+	
+		{
+			"name":"Smartbomb",
+			"origin":"Defender",
+			"type":"Arcade game",
+			"maker": "Atari",
+			"link": "http://www.youtube.com/watch?v=3pgh8pf5xzA",
+			"description":"When certain death is near, smart bomb destroys everything on the screen. Check out this player using the smart bomb...you'll know when you see it."
+		
+	},
+	
+		{
+		
+			"name":"Blades of Chaos",
+			"origin":"God of War",
+			"Type":"Console game",
+			"maker": "Sony Computer Entertainment",
+			"link": "http://godofwar.playstation.com/verify_age/?next=/",
+			"description":"Blades of Chaos has infinite use and can fight off the toughest foes in a clip"
+	},
+
+
+
+
+		{
+			"name":"Gravity Gun",
+			"origin":"Half-Life 2",
+			"type":"Console game",
+			"maker": "Valve Corporation",
+			"link": "http://www.valvesoftware.com/games/hl2.html",
+			"description":"Anything is ammo!"
+	},
+
+
+		{	
+			"name":"Lancer(chainsaw)",
+			"origin":"Gears of War",
+			"type":"Console game",
+			"maker": "Epic Games",
+			"link": "http://gearsofwar.xbox.com/en-US/AgeGate?source=%252f",
+			"description":"A chainsaw? AWESOME!"
+	},
+
+		 {
+			"name":"Exodia",
+			"origin":"Yu-Gi-Oh",
+			"type":"Card game",
+			"maker": "Konami",
+			"link": "http://yugioh.wikia.com/wiki/Forbidden_One",
+			"description":"An automatic victory if a player has all five pieces!"
+	}
+  
+]
+}

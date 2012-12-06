@@ -305,10 +305,10 @@ $('#csvPage').on('pageinit', function(){
 
 ///////////////////////////////////////Week 3 files////////////////////////////////////////////
 
-//Couch JSON data page
+//Couch JSON data page-to couch..
 $('#couch').on('pageinit', function(){
     console.log("couch data page ready to create favCards list!");
-    $('couchFavCardsList').empty();
+    $('#couchFavCardsList').empty();
         console.log("Fav Cards list cleared!");
     $.ajax({
         "url": "_view/favCards",
@@ -322,7 +322,7 @@ $('#couch').on('pageinit', function(){
                         $('#couchFavCardsList').append(
                             $('<li>').append(
                                 $('<a>').attr("href", "#")
-                                .text(favCards)
+                                .text(name)
                         )
                     );
 
